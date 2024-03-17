@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "img": "../src/assets/food_2.jpg",
+      "img": "https://i.ibb.co/hfJxzPt/food-2.jpg",
       "title": "Vegetarian Pasta Primavera",
       "description": "A light and flavorful pasta dish packed with fresh vegetables.",
       "ingredients": ["pasta", "zucchini", "tomatoes", "bell peppers", "olive oil", "parmesan cheese"],
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "img": "../src/assets/food_3.jpg",
+      "img": "https://i.ibb.co/ZRj12fN/food-3.jpg",
       "title": "Beef and Broccoli Stir-Fry",
       "description": "Tender beef slices cooked with broccoli in a savory sauce.",
       "ingredients": ["beef sirloin", "broccoli", "soy sauce", "ginger", "garlic", "brown sugar"],
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "img": "../src/assets/food_4.jpg",
+      "img": "https://i.ibb.co/BLbXXXv/food-4.jpg",
       "title": "Caprese Salad",
       "description": "A classic Italian salad with fresh tomatoes, mozzarella, and basil.",
       "ingredients": ["tomatoes", "mozzarella cheese", "fresh basil", "olive oil", "balsamic vinegar", "salt"],
@@ -37,7 +37,7 @@
     },
     {
       "id": 5,
-      "img": "../src/assets/food_5.jpg",
+      "img": "https://i.ibb.co/t3bxrmc/food-5.jpg",
       "title": "Shrimp Scampi",
       "description": "Tender shrimp sautéed in garlic butter and white wine sauce.",
       "ingredients": ["shrimp", "garlic", "butter", "white wine", "lemon", "parsley"],
@@ -46,7 +46,7 @@
     },
     {
       "id": 6,
-      "img": "../src/assets/food_6.jpg",
+      "img": "https://i.ibb.co/rbTR8j7/food-6.jpg",
       "title": "Mushroom Risotto",
       "description": "Creamy risotto cooked with flavorful mushrooms and parmesan cheese.",
       "ingredients": ["arborio rice", "mushrooms", "vegetable broth", "onion", "white wine", "parmesan cheese"],
@@ -55,7 +55,7 @@
     },
     {
       "id": 7,
-      "img": "../src/assets/food_7.jpg",
+      "img": "https://i.ibb.co/9Nr6VGf/food-7.jpg",
       "title": "Grilled Salmon with Asparagus",
       "description": "Fresh salmon fillets grilled to perfection and served with roasted asparagus.",
       "ingredients": ["salmon fillets", "asparagus", "olive oil", "lemon", "salt", "pepper"],
@@ -64,7 +64,7 @@
     },
     {
       "id": 8,
-      "img": "../src/assets/food_8.jpg",
+      "img": "https://i.ibb.co/p38m2R6/food-8.jpg",
       "title": "Chicken Caesar Salad",
       "description": "Crisp romaine lettuce tossed with grilled chicken, croutons, and Caesar dressing.",
       "ingredients": ["chicken breast", "romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing", "lemon"],
@@ -73,7 +73,7 @@
     },
     {
       "id": 9,
-      "img": "../src/assets/food_9.jpg",
+      "img": "https://i.ibb.co/gZt2LCD/food-9.jpg",
       "title": "Vegetable Curry",
       "description": "A fragrant and spicy curry dish loaded with assorted vegetables.",
       "ingredients": ["potatoes", "carrots", "bell peppers", "onion", "coconut milk", "curry paste"],
@@ -82,7 +82,7 @@
     },
     {
       "id": 10,
-      "img": "../src/assets/food_10.jpg",
+      "img": "https://i.ibb.co/fH5j9B7/food-10.jpg",
       "title": "Beef Tacos",
       "description": "Tender beef filling wrapped in warm tortillas with salsa and toppings.",
       "ingredients": ["beef chuck", "tortillas", "salsa", "lettuce", "tomato", "cheddar cheese"],
