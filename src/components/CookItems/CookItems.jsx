@@ -6,6 +6,7 @@ const CookItems = (props) => {
         <div>
             <div className="text-center">
                 <h1 className="text-2xl font-semibold">Want to cook: {cookItems.length}</h1>
+                <hr className="my-4" />
 
                 <div>
                     <div className="overflow-x-auto">
@@ -35,9 +36,10 @@ const CookItems = (props) => {
                 </div>
             </div>
 
-            <div className="text-center">
+            <div className="text-center mt-6">
                 <h1 className="text-2xl font-semibold">Currently cooking: {prepareItems.length}</h1>
-
+                <hr className="my-4" />
+                
                 <div>
                     <div className="overflow-x-auto">
                         <table className="table">

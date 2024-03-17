@@ -58,7 +58,7 @@ const Recipes = () => {
                         recipes.map(recipe => <Recipe key={recipe.id} handleWantToCook={handleWantToCook} recipe={recipe}></Recipe>)
                     }
                 </div>
-                <div className="lg:w-1/3">
+                <div className="lg:w-1/3 border rounded-2xl p-4">
                     <CookItems cookItems={cookItems} prepareItems={prepareItems} handlePrepareItem={handlePrepareItem}></CookItems>
 
                 </div>
