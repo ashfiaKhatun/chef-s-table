@@ -2,11 +2,14 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "../Recipe/Recipe";
 import CookItems from "../CookItems/CookItems";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Recipes = () => {
 
     const [recipes, setRecipes] = useState([]);
     const [cookItems, setCookItems] = useState([]);
+    const [prepareItems, setPrepareItems] = useState([]);
 
     useEffect(() => {
         fetch('meals.json')
@@ -14,9 +17,31 @@ const Recipes = () => {
             .then(data => setRecipes(data))
     }, [])
 
-    const handleWantToCook = (recipe) => {
+    const handleWantToCook = (id, recipe) => {
         const newCookItems = [...cookItems, recipe];
-        setCookItems(newCookItems);
+
+        const repeatItem = cookItems.find(cookItem => cookItem.id === id);
+
+        if(repeatItem){
+            toast("You already added this item!");
+        }
+        else{
+            setCookItems(newCookItems);
+
+        }
+    }
+
+    const handlePrepareItem = (id) => {
+        // remove item
+        const remainCookItems = cookItems.filter(cookItem => cookItem.id !== id);
+        setCookItems(remainCookItems);
+
+        // add item to next section
+        const findCookItems = cookItems.find(cookItem => cookItem.id === id);
+
+        const newPrepareItem = [...prepareItems, findCookItems];
+
+        setPrepareItems(newPrepareItem);
     }
 
     return (
@@ -34,11 +59,12 @@ const Recipes = () => {
                     }
                 </div>
                 <div className="lg:w-1/3">
-                    <CookItems cookItems={cookItems}></CookItems>
+                    <CookItems cookItems={cookItems} prepareItems={prepareItems} handlePrepareItem={handlePrepareItem}></CookItems>
 
                 </div>
 
             </div>
+            <ToastContainer />
         </div>
     );
 };

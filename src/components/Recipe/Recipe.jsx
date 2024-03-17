@@ -5,12 +5,12 @@ const Recipe = (props) => {
 
     const {recipe, handleWantToCook} = props;
 
-    const {img, title, description, ingredients, cook_time, calories} = recipe;
+    const {id, img, title, description, ingredients, cook_time, calories} = recipe;
 
     return (
         <div>
             <div className="card lg:w-96 border shadow-xl">
-                <figure className="p-4"><img className="rounded-lg" src={img} alt="Shoes" /></figure>
+                <figure className="p-4"><img className="rounded-lg" src={img} /></figure>
                 <div className="card-body">
                     
                     <h2 className='text-xl font-semibold'>{title}</h2>
@@ -31,7 +31,7 @@ const Recipe = (props) => {
 
 
                     <div className="card-actions">
-                        <button onClick={() => handleWantToCook(recipe)} className="btn rounded-full bg-[#0BE58A] font-bold">Want to Cook</button>
+                        <button onClick={() => handleWantToCook(id, recipe)} className="btn rounded-full bg-[#0BE58A] font-bold">Want to Cook</button>
                     </div>
                 </div>
             </div>

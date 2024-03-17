@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "img": "../src/assets/food_1.jpg",
+      "img": "https://i.ibb.co/x1LZC6H/food-1.jpg",
       "title": "Spicy Chicken Stir-Fry",
       "description": "A delicious and spicy chicken stir-fry with mixed vegetables.",
       "ingredients": ["chicken breast", "bell peppers", "onion", "garlic", "soy sauce", "chili flakes"],
