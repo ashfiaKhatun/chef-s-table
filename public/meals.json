@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "img": "https://example.com/food1.jpg",
+      "img": "../src/assets/food_1.jpg",
       "title": "Spicy Chicken Stir-Fry",
       "description": "A delicious and spicy chicken stir-fry with mixed vegetables.",
       "ingredients": ["chicken breast", "bell peppers", "onion", "garlic", "soy sauce", "chili flakes"],
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "img": "https://example.com/food2.jpg",
+      "img": "../src/assets/food_2.jpg",
       "title": "Vegetarian Pasta Primavera",
       "description": "A light and flavorful pasta dish packed with fresh vegetables.",
       "ingredients": ["pasta", "zucchini", "tomatoes", "bell peppers", "olive oil", "parmesan cheese"],
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "img": "https://example.com/food3.jpg",
+      "img": "../src/assets/food_3.jpg",
       "title": "Beef and Broccoli Stir-Fry",
       "description": "Tender beef slices cooked with broccoli in a savory sauce.",
       "ingredients": ["beef sirloin", "broccoli", "soy sauce", "ginger", "garlic", "brown sugar"],
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "img": "https://example.com/food4.jpg",
+      "img": "../src/assets/food_4.jpg",
       "title": "Caprese Salad",
       "description": "A classic Italian salad with fresh tomatoes, mozzarella, and basil.",
       "ingredients": ["tomatoes", "mozzarella cheese", "fresh basil", "olive oil", "balsamic vinegar", "salt"],
@@ -37,7 +37,7 @@
     },
     {
       "id": 5,
-      "img": "https://example.com/food5.jpg",
+      "img": "../src/assets/food_5.jpg",
       "title": "Shrimp Scampi",
       "description": "Tender shrimp sautéed in garlic butter and white wine sauce.",
       "ingredients": ["shrimp", "garlic", "butter", "white wine", "lemon", "parsley"],
@@ -46,7 +46,7 @@
     },
     {
       "id": 6,
-      "img": "https://example.com/food6.jpg",
+      "img": "../src/assets/food_6.jpg",
       "title": "Mushroom Risotto",
       "description": "Creamy risotto cooked with flavorful mushrooms and parmesan cheese.",
       "ingredients": ["arborio rice", "mushrooms", "vegetable broth", "onion", "white wine", "parmesan cheese"],
@@ -55,7 +55,7 @@
     },
     {
       "id": 7,
-      "img": "https://example.com/food7.jpg",
+      "img": "../src/assets/food_7.jpg",
       "title": "Grilled Salmon with Asparagus",
       "description": "Fresh salmon fillets grilled to perfection and served with roasted asparagus.",
       "ingredients": ["salmon fillets", "asparagus", "olive oil", "lemon", "salt", "pepper"],
@@ -64,7 +64,7 @@
     },
     {
       "id": 8,
-      "img": "https://example.com/food8.jpg",
+      "img": "../src/assets/food_8.jpg",
       "title": "Chicken Caesar Salad",
       "description": "Crisp romaine lettuce tossed with grilled chicken, croutons, and Caesar dressing.",
       "ingredients": ["chicken breast", "romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing", "lemon"],
@@ -73,7 +73,7 @@
     },
     {
       "id": 9,
-      "img": "https://example.com/food9.jpg",
+      "img": "../src/assets/food_9.jpg",
       "title": "Vegetable Curry",
       "description": "A fragrant and spicy curry dish loaded with assorted vegetables.",
       "ingredients": ["potatoes", "carrots", "bell peppers", "onion", "coconut milk", "curry paste"],
@@ -82,7 +82,7 @@
     },
     {
       "id": 10,
-      "img": "https://example.com/food10.jpg",
+      "img": "../src/assets/food_10.jpg",
       "title": "Beef Tacos",
       "description": "Tender beef filling wrapped in warm tortillas with salsa and toppings.",
       "ingredients": ["beef chuck", "tortillas", "salsa", "lettuce", "tomato", "cheddar cheese"],
